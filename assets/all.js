@@ -96,7 +96,7 @@ function init(data) {
     <li class="card shadow-sm col-4 px-0 mb-12">
           <div class="position-relative card-img">
             <div class="fz-1 color-white bg-primary position-absolute contryTag px-5 py-2">${item.area}</div>
-            <img src="${item.imgUrl}" class="" alt="...">
+            <img src="${item.imgUrl}" class="card-img" alt="...">
           </div>
           <div class="card-body px-6 py-6 position-relative">
               <div class="color-white bg-primary-dark position-absolute starTag px-2 py-1">${item.rate}</div>
